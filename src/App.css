@@ -1,0 +1,187 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+/*.blue-color-link {*/
+/*  color: #1961b8;*/
+/*}*/
+
+.top-section {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.top-section-news {
+  margin-right: 50px;
+}
+
+.top-news-list,
+.currency-list,
+.service-list {
+  list-style-type: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.top-news-list__horizontal,
+.currency-list__horizontal,
+.service-list__horizontal {
+  display: flex;
+  font-weight: bold;
+}
+
+.top-news-item,
+.currency-item,
+.service-item {
+  margin-right: 20px;
+}
+
+.news-link,
+.service-link {
+  text-decoration: none;
+  color: #0e5bb8;
+}
+
+.top-news-link {
+  text-decoration: none;
+  color: #000
+}
+
+/*.top-news-link:visited,*/
+/*.service-link:visited {*/
+/*  color: black;*/
+/*}*/
+
+.news-link:hover,
+.top-news-link:hover,
+.service-link:hover {
+  color: #5cbdfb;
+}
+
+.currency-desc {
+  display: inline-block;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.form {
+  width: 85%;
+}
+
+.search-input {
+  display: inline-block;
+  width: 89%;
+  padding: 10px .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ffd85d;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn {
+  background-color: #ffd85d;
+  border-color: #ffd85d;
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding: 9px 14px;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #faeb8a;
+}
+
+.logo-container {
+  width: 20%;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.main-logo {
+  display: inline-block;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Yandex_logo_ru.svg/98px-Yandex_logo_ru.svg.png");
+  width: 150px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.widget-img {
+  width: 150px;
+  display: block;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.widget-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+.ml150 {
+  margin-left: 150px;
+}
+
+.ml25 {
+  margin-left: 25px;
+}
